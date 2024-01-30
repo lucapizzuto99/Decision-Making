@@ -97,17 +97,6 @@ the_table = ax.table(cellText=table_sorted,
 the_table.scale(1, 3) # Increase the size of the cells by 50%
 
 # TODO: ADD A LABEL WITH THE ACRONYMS!!
-
-# # Add a legend below the table
-# couples = []
-# for i in range(len(columns)):
-#     couples.append((columns[i], factors_names[i]))
-# legend_text = " | ".join("-".join([acro,full]) for acro, full in couples)
-# plt.text(0, 0, legend_text, ha='center', va='bottom', fontsize=3)
-
-# plt.axis('off')
-
-# Set the title and label of the x-axis to empty strings
 ax.set_title('')
 ax.set_xlabel('')
 
